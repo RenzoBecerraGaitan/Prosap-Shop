@@ -12,7 +12,6 @@ let swiper = () => {
     return (
         <>
             <Swiper
-                // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                 spaceBetween={50}
                 slidesPerView={1}

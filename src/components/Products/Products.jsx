@@ -17,9 +17,9 @@ let Products = () => {
                 <section id="products" className="container mt-5">
                     <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
                         {
-                            products.slice(7, 19).map((product) => {
+                            products.slice(7, 19).map((product, idx) => {
                                 return (
-                                    <div className="col">
+                                    <div className="col" key={product.id}>
                                         <div className="card h-100 penguin-card-border shadow rounded">
                                             <img
                                                 src={product.images[0]}

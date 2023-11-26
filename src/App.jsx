@@ -8,9 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="containerContent background">
-        <RouterConfig></RouterConfig>
-      </div>
+      <RouterConfig></RouterConfig>
       <Footer />
     </>
   )

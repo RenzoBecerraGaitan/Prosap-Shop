@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./Index.css";
-import Categories from "../Categories/Categories";
 import Swiper from "../Swiper/Swiper";
 import Payment from "../Payment/Payment";
 import { getDolarPrice } from "../../services/DolarAPI";
+import Products from "../Products/Products";
 
 
 
@@ -21,7 +21,8 @@ let Index = () => {
         <>
             <Swiper />
             <div className="mt-5 container">
-                <Categories />
+                <h3>Productos: </h3>
+                <Products />
             </div>
         </>
     )
