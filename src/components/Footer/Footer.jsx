@@ -11,7 +11,9 @@ export default function Footer() {
                             <div className="col">
                                 <div className="widget company-intro-widget text-center">
                                     <div className="text-center"><img src="./src/assets/logo.jpg" alt="logo" className="logo-footer logo"/></div>
-                                    <p>Somos una empresa de tecnología líder en comercio electrónico y soluciones fintech de América Latina. Nuestro propósito es democratizar el comercio y los servicios financieros para transformar la vida de millones de personas en la región.</p>
+                                    <ul>
+                                        <li><a href="mailto:mercadoliebre@gmail.com">Nuestro Email</a></li>
+                                    </ul>
                                 </div>
                             </div>
                             <div className="col">

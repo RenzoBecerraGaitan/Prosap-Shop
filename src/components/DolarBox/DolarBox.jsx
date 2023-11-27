@@ -25,7 +25,7 @@ export default function DolarBox() {
   }, []);
 
   return (
-    <div className="dolar-box-container">
+    <div className="dolar-box-container animate__animated animate__fadeInDown">
       <div className="banner">
         {dolarPrices.map((a, index) => {
           if (a.nombre !== "Solidario") {
