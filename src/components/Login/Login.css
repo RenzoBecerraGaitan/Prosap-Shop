@@ -6,6 +6,11 @@
     animation: myanimation 20s infinite;
 }
 
+.formLogin {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
 @keyframes myanimation {
     0% {
         background-image: url("./../../assets/register1.webp");

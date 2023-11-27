@@ -25,10 +25,10 @@ const Form = () => {
                         <input type="date" className="form-control item" id="birth-date" placeholder="Birth Date" />
                     </div>
                     <div className="form-group">
-                        <button type="button" className="btn btn-block create-account">Crear Cuenta</button>
+                        <button type="button" className="btn btn-block create-account"><i class="bi bi-door-open-fill"></i> Crear Cuenta</button>
                     </div>
-                    <div classNameName='text-center'>
-                    <a href='/login' classNameName='text-white'>Volver al Login</a>
+                    <div className='text-center'>
+                    <a href='/login' className='text-white'><i class="bi bi-backspace-fill"></i> Volver al Login</a>
                     </div>
                 </form>
             </div>

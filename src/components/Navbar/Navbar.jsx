@@ -4,46 +4,34 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <>
-      <section className="head-section bg-warning">
-        <header className="container">
-          <nav className="navbar navbar-expand-lg navbar-light penguin-nabbar">
-            <div className="container-fluid">
-              <a className="navbar-brand" href="/">
-              <img
-                  src={'./src/assets/prosap.jpg'}
-                  alt="shopify"
-                  className="logo img-fluid"
-                /> Prosap
-              </a>
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div
-                className="collapse navbar-collapse justify-content-end"
-                id="navbarNav"
-              >
-                <ul className="navbar-nav">
-                  <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/"
-                    ><i class="bi bi-house-door-fill"></i> Home</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/products"><i class="bi bi-bookmark-fill"></i> Productos</a>
-                  </li>
-                </ul>
-              </div>
+      <header class="header_section bg-warning">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="/"><img width="250" src="./../src/assets/logo.jpg" alt="#" className="logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/"><i class="bi bi-house"></i> Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about"><i class="bi bi-file-person-fill"></i> Quienes Somos?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                  </a>
+                </li>
+                <div>
+                <a className="btn btn-block btn-black" href="/login"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+                </div>
+                
+              </ul>
             </div>
           </nav>
-        </header>
-      </section>
+        </div>
+      </header>
     </>
   )
 }
