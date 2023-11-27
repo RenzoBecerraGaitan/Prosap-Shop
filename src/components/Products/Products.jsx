@@ -18,7 +18,7 @@ let Products = () => {
                 <h3 className="textUpperCase">¡LAS MEJORES OFERTAS DEL DÍA!</h3>
                     <div className="row">
                         {
-                            products.slice(0, 10).map((product, idx) => {
+                            products.slice(0, 12).map((product) => {
                                 return (<Product product={product} key={product.id} />)
                             })
                         }
