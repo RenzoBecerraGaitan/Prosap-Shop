@@ -14,19 +14,16 @@ let Products = () => {
 
     return (
         <>
-            <div className="pageProducts">
-                
                 <div className="container">
                 <h3 className="textUpperCase">¡LAS MEJORES OFERTAS DEL DÍA!</h3>
                     <div className="row">
                         {
-                            products.slice(0, 9).map((product, idx) => {
-                                return (<Product product={product} />)
+                            products.slice(0, 10).map((product, idx) => {
+                                return (<Product product={product} key={product.id} />)
                             })
                         }
                     </div>
                 </div>
-            </div>
         </>)
 };
 
