@@ -3,7 +3,7 @@ import "./Product.css";
 
 export default function Product({ product }) {
     return (<>
-        <div classNameName="col">
+        <div className="col-12 col-sm-12 col-md-4 col-lg-4">
             <div className="product-card card">
                 <div className="badge">New</div>
                 <div className="product-tumb">
