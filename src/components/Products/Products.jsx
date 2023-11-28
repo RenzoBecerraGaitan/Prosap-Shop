@@ -15,8 +15,8 @@ let Products = () => {
     return (
         <>
                 <div className="container">
-                <h3 className="textUpperCase">¡LAS MEJORES OFERTAS DEL DÍA!</h3>
-                    <div className="row">
+                <h3 className="textUpperCase animate__animated animate__fadeInDownBig">¡LAS MEJORES OFERTAS DEL DÍA!</h3>
+                    <div className="row animate__animated animate__fadeInDownBig">
                         {
                             products.slice(0, 12).map((product) => {
                                 return (<Product product={product} key={product.id} />)
